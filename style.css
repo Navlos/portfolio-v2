@@ -1,0 +1,29 @@
+/* Google fonts */
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+body{
+    background: #eee;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+
+header{
+    padding:1rem;
+    width: min(100vw,1000px);
+}
+
+header .logo{
+    width:20vw;
+}
+
+.container{
+    width: min(90%,1000px);
+    margin-inline: auto;
+}
